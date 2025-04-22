@@ -1,0 +1,31 @@
+# === Rust Stuff ===
+/target
+**/*.rs.bk
+
+# === Dependency Lock ===
+Cargo.lock
+
+# === IDEs / Editors ===
+**/*.swp
+**/*.swo
+*.tmp
+*.bak
+*.old
+*.orig
+.idea/
+.vscode/
+*.code-workspace
+
+# === OS Specific ===
+.DS_Store
+Thumbs.db
+
+# === Logs & Dumps ===
+*.log
+*.dmp
+*.stackdump
+
+# === Tests / Coverage ===
+/coverage/
+*.profraw
+*.profdata
